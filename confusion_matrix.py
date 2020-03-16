@@ -223,7 +223,7 @@ print("Macro-averaged F1: {:.2f}".format(macro_f))
 print("------------------------------------")
 print("----------evaluating existing cm ----------")
 
-confusion = np.array([[1000,100,50],[20,0,10],[10,10,0]])
+confusion = np.array([[100,0,0],[80,0,20],[20,10,970]])
 classes = ['class_1', 'class_2','class_3']
 acc = accuracy(confusion)
 

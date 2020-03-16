@@ -7,7 +7,7 @@ d = len(x)
 data_mean = np.mean(data,axis=0).T
 print("u = 1/%d * "%(len(data)) + np.array2string(data_mean))
 print()
-mean = np.array([1/len(data) * np.mean(data, axis=0)]).T
+mean = np.array([np.mean(data, axis=0)]).T
 
 covar=0
 workins = "E = 1/%d *"%(len(data))
